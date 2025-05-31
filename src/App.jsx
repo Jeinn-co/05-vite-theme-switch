@@ -11,7 +11,7 @@ function App() {
   );
 
   useEffect(() => {
-    document.documentElement.setAttribute("data-theme", theme);
+    document.documentElement.setAttribute("data-theme", theme); //<html> 元素
     localStorage.setItem("theme", theme);
   }, [theme]);
 
